@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="474.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="personalinfoapp.PersonalInfoAppController">
+   <children>
+      <AnchorPane layoutX="-11.0" prefHeight="474.0" prefWidth="213.0" style="-fx-background-color: #1D2026;">
+         <children>
+            <Pane layoutY="-2.0" prefHeight="62.0" prefWidth="213.0" style="-fx-background-color: #1D2026;">
+               <children>
+                  <Label layoutX="41.0" layoutY="20.0" text="Personal Info App" textFill="#eeecec">
+                     <font>
+                        <Font name="Garamond" size="18.0" />
+                     </font></Label>
+                  <MaterialDesignIconView fill="#f5f4f4" glyphName="MENU" layoutX="187.0" layoutY="24.0" />
+               </children>
+            </Pane>
+            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="7.0" layoutY="123.0" prefHeight="27.0" prefWidth="200.0" ripplerFill="WHITE" text="Timetable" textFill="#c6c6c6">
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="CALENDAR_CLOCK" size="16" />
+               </graphic>
+               <font>
+                  <Font name="Josefin Sans" size="16.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btn1" accessibleText="btnExam" alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="7.0" layoutY="150.0" prefHeight="27.0" prefWidth="200.0" ripplerFill="WHITE" text="Exams" textFill="#c6c6c6">
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="CLIPBOARD_OUTLINE" size="16" />
+               </graphic>
+               <font>
+                  <Font name="Josefin Sans" size="16.0" />
+               </font></JFXButton>
+            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="7.0" layoutY="180.0" prefHeight="27.0" prefWidth="200.0" ripplerFill="WHITE" text="Chat" textFill="#c6c6c6">
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="COMMENT_MULTIPLE_OUTLINE" size="16" />
+               </graphic>
+               <font>
+                  <Font name="Josefin Sans" size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="8.0" layoutY="206.0" prefHeight="27.0" prefWidth="200.0" ripplerFill="WHITE" text="Documents" textFill="#c6c6c6">
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="FILE" size="16" />
+               </graphic>
+               <font>
+                  <Font name="Josefin Sans" size="16.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="26.0" layoutY="293.0" text="ONLINE USERS" textFill="#c3c3c3">
+               <font>
+                  <Font name="Garamond" size="10.0" />
+               </font>
+            </Label>
+            <JFXTextField focusColor="#5d6ca4" layoutX="26.0" layoutY="258.0" prefHeight="27.0" prefWidth="149.0" promptText="Search for name, exam, document" text="New chat" unFocusColor="#adadad" />
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="26.0" layoutY="317.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Media/Zdjęcie%2022.05.2017,%2016%2034%2034.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="26.0" layoutY="362.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Media/Zdjęcie%2022.05.2017,%2016%2034%2034.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="26.0" layoutY="408.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Media/Zdjęcie%2022.05.2017,%2016%2034%2034.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="62.0" layoutY="326.0" text="Mark Smith" textFill="#cdd0cd">
+               <font>
+                  <Font name="Garamond" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="371.0" text="Mark Smith" textFill="#cdd0cd">
+               <font>
+                  <Font name="Garamond" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="417.0" text="Mark Smith" textFill="#cdd0cd">
+               <font>
+                  <Font name="Garamond" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="202.0" prefHeight="474.0" prefWidth="588.0">
+         <children>
+            <Pane layoutY="204.0" prefHeight="270.0" prefWidth="588.0" style="-fx-background-color: #ffff;" />
+            <Pane layoutY="-3.0" prefHeight="108.0" prefWidth="588.0">
+               <children>
+                  <Pane layoutY="56.0" opacity="0.69" prefHeight="75.0" prefWidth="588.0" style="-fx-background-color: #1D2026;" />
+                  <JFXTextField layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="241.0" promptText="Search for name, exam, document" />
+                  <ImageView fitHeight="75.0" fitWidth="128.0" layoutX="14.0" layoutY="71.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Media/Zdjęcie%2022.05.2017,%2016%2034%2034.jpg" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="btnEditProfile" alignment="TOP_LEFT" graphicTextGap="9.0" layoutX="454.0" layoutY="71.0" prefHeight="31.0" prefWidth="120.0" ripplerFill="WHITE" text="Edit Profile" textFill="#c6c6c6">
+                     <graphic>
+                        <MaterialDesignIconView fill="WHITE" glyphName="BORDER_COLOR" size="16" />
+                     </graphic>
+                     <font>
+                        <Font name="Josefin Sans" size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <Label layoutX="91.0" layoutY="86.0" text="Wojciech Kuczer" textFill="#c3c3c3">
+                     <font>
+                        <Font name="Garamond" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="91.0" layoutY="108.0" text="Junior Java Dev" textFill="#c3c3c3">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+                  <MaterialDesignIconView fx:id="btnClose" fill="#252424" glyphName="WINDOW_CLOSE" layoutX="562.0" layoutY="18.0" onMouseClicked="#lblCloseMouseClicked" onMouseEntered="#lblCloseMouseEntered" onMouseExited="#lblCloseMouseExited" />
+               </children>
+            </Pane>
+            <Label fx:id="lbl2017" accessibleRoleDescription="lbl2017" layoutX="118.0" layoutY="139.0" text="Class of&#10;2017&#10;">
+               <font>
+                  <Font name="Garamond" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblInterest" layoutX="218.0" layoutY="131.0" text="Interest&#10;Bitcoin&#10;&#10;">
+               <font>
+                  <Font name="Garamond" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="118.0" layoutY="215.0" text="Schedule" textFill="#408a45">
+               <font>
+                  <Font name="Garamond" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="215.0" layoutY="215.0" text="Contact Info" textFill="#408a45">
+               <font>
+                  <Font name="Garamond" size="18.0" />
+               </font>
+            </Label>
+            <Pane layoutX="4.0" layoutY="237.0" prefHeight="90.0" prefWidth="405.0">
+               <children>
+                  <MaterialDesignIconView fill="#dd0909" glyphName="NUMERIC_1_BOX_MULTIPLE_OUTLINE" layoutY="53.0" size="14" />
+                  <Label layoutX="118.0" layoutY="28.0" text="9.00 Am" textFill="#408a45">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="232.0" layoutY="28.0" text="Maths" textFill="#408a45">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="31.0" text="Monday&#10;06/08/2017" textFill="#5e5e5e">
+                     <font>
+                        <Font name="Garamond" size="12.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="118.0" layoutY="46.0" prefHeight="4.0" prefWidth="281.0" />
+                  <Label layoutX="118.0" layoutY="48.0" text="11.00 Am" textFill="#408a45">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="232.0" layoutY="48.0" text="English" textFill="#408a45">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="4.0" layoutY="317.0" prefHeight="90.0" prefWidth="405.0">
+               <children>
+                  <MaterialDesignIconView fill="#dd0909" glyphName="NUMERIC_2_BOX_MULTIPLE_OUTLINE" layoutY="53.0" size="14" />
+                  <Label layoutX="118.0" layoutY="28.0" text="9.00 Am" textFill="#408a45">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="232.0" layoutY="28.0" text="Maths" textFill="#408a45">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="31.0" text="Tuesday&#10;07/08/2017" textFill="#5e5e5e">
+                     <font>
+                        <Font name="Garamond" size="12.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="118.0" layoutY="46.0" prefHeight="4.0" prefWidth="281.0" />
+                  <Label layoutX="118.0" layoutY="48.0" text="11.00 Am" textFill="#408a45">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="232.0" layoutY="48.0" text="English" textFill="#408a45">
+                     <font>
+                        <Font name="Garamond" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
