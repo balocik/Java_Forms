@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="534.0" prefWidth="735.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="FXMLDocumentController">
+   <children>
+      <Pane prefHeight="534.0" prefWidth="313.0" style="-fx-background-color: #266DD4;">
+         <children>
+            <ImageView fitHeight="137.0" fitWidth="129.0" layoutX="28.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/icons8-tooth_filled.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="51.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to dental practice">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Text>
+            <Label layoutX="139.0" layoutY="286.0" text="TheTooth" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="444.0" layoutY="26.0" text="Make an appointment">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <JFXDatePicker defaultColor="#266dd4" layoutX="380.0" layoutY="101.0" prefHeight="27.0" prefWidth="302.0" />
+      <Label layoutX="380.0" layoutY="87.0" text="Select date of Your appointment">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="154.0" text="Select time of Your appointment">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Pane layoutX="407.0" layoutY="180.0" prefHeight="79.0" prefWidth="108.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="42.0" layoutY="3.0" text="HR">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtHour" alignment="CENTER" editable="false" layoutX="12.0" layoutY="25.0" prefHeight="27.0" prefWidth="85.0" promptText="00">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </Pane>
+      <Pane layoutX="527.0" layoutY="180.0" prefHeight="79.0" prefWidth="108.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="38.0" layoutY="3.0" text="MIN">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" layoutX="12.0" layoutY="25.0" prefHeight="27.0" prefWidth="85.0" promptText="00">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </Pane>
+      <Pane fx:id="pane8" layoutX="380.0" layoutY="288.0" onMouseClicked="#setHour" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label fx:id="lbl08" layoutX="10.0" layoutY="11.0" text="8AM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="465.0" layoutY="288.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="10.0" layoutY="11.0" text="9AM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="555.0" layoutY="288.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #266DD4;">
+         <children>
+            <Label layoutX="7.0" layoutY="11.0" text="10AM" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="639.0" layoutY="288.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="8.0" layoutY="11.0" text="11AM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="380.0" layoutY="333.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #266DD4;">
+         <children>
+            <Label layoutX="7.0" layoutY="11.0" text="12AM" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="465.0" layoutY="333.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="10.0" layoutY="11.0" text="1PM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="555.0" layoutY="333.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="10.0" layoutY="11.0" text="2PM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="639.0" layoutY="333.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="10.0" layoutY="11.0" text="3PM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="380.0" layoutY="379.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #266DD4;">
+         <children>
+            <Label layoutX="10.0" layoutY="11.0" text="4PM" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="465.0" layoutY="379.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="10.0" layoutY="11.0" text="5PM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="555.0" layoutY="379.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="10.0" layoutY="11.0" text="6PM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="639.0" layoutY="379.0" prefHeight="36.0" prefWidth="43.0" style="-fx-background-color: #EBECED;">
+         <children>
+            <Label layoutX="10.0" layoutY="11.0" text="7PM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Separator layoutX="380.0" layoutY="436.0" prefHeight="3.0" prefWidth="302.0" style="-fx-background-color: #266DD4;" />
+      <JFXButton layoutX="380.0" layoutY="460.0" prefHeight="27.0" prefWidth="129.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em; -fx-border-color: #266DD4;" text="Cancel" />
+      <JFXButton layoutX="554.0" layoutY="460.0" prefHeight="27.0" prefWidth="129.0" style="-fx-background-color: #266DD4; -fx-background-radius: 5em; -fx-border-radius: 5em;" text="Submit" textFill="#fcf6f6" />
+      <FontAwesomeIconView fill="#266dd4" glyphName="CLOSE" layoutX="716.0" layoutY="20.0" onMouseClicked="#Close" size="20" wrappingWidth="9.428571701049805" />
+   </children>
+</AnchorPane>
